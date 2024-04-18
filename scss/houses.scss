@@ -1,0 +1,110 @@
+.homepage-img-box {
+    background-color: red;
+    width: 100%;
+
+
+    .homepage-img {
+        background-image: url(../images/game-of-thrones-1-1920x1080.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+        .homepageimg-text {
+            font-size: xx-large;
+            color: white;
+            font-family: fantasy;
+            padding: 5px;
+
+        }
+
+        .homemore-text {
+            font-size: medium;
+            color: white;
+            font-family: fantasy;
+            padding: 5px;
+            text-align: center;
+
+        }
+
+        .home-button {
+            width: 140px;
+            height: 40px;
+            background-color: gray;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            color: white;
+            font-family: monospace;
+        }
+    }
+}
+
+
+.formula-intro-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .intro-text {
+        width: 60%;
+        text-align: center;
+        height: 30%;
+        font-family: monospace;
+    }
+}
+
+.homemain-img-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .homemain-img {
+        background-image: url(../images/Game_of_Thrones_title_card.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: 50%;
+        height: 200px;
+    }
+}
+
+.f1-safeinfo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+    .safe-img {
+        background-image: url(../images/rs_1200x1200-220819175009-1200-Game-of-thrones.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 200px;
+    }
+
+    .safety-text {
+        width: 50%;
+        height: 30%;
+    }
+
+    .img2 {
+        background-image: url(../images/230822_GOTRPG_GTM_WebsiteKeyArt_NoLogo_1080x1080-copy.webp);
+    }
+}

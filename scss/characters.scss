@@ -1,0 +1,60 @@
+.drivers-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .drivers-text-box {
+        margin-top: 50px;
+        width: 60%;
+        text-align: center;
+        height: 30%;
+        font-family: monospace;
+        display: flex;
+
+
+    }
+
+    .drivers-homepage {
+        background-image: url(../images/download\ \(2\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 400px;
+
+    }
+}
+
+
+.champs-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .champ-info {
+        width: 50%;
+        height: 30%;
+        font-family: monospace;
+    }
+
+    .champ-img {
+        background-image: url(../images/download\ \(3\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 274px;
+        height: 254px;
+    }
+
+    .imgchamp2 {
+        background-image: url(../images/D5JF98.webp);
+    }
+
+
+    .imgchamp3 {
+        background-image: url(../images/cersei2_trans_NvBQzQNjv4Bq8uCZQ4CwV1dl0Mg8NuwggWSDtfxxgc3CJ64yW7BKTEs.jpg);
+    }
+}

@@ -1,0 +1,74 @@
+.thrones-epinfo-box {
+    margin: auto;
+
+    width: 70%;
+    height: 30%;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+    .thrones-epinfo-img {
+        background-image: url(../images/download\ \(4\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 534px;
+        height: 356px;
+
+        margin-top: 20px;
+    }
+
+
+
+
+}
+
+
+.eplist-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+    .eptext {
+        width: 70%;
+        height: 30%;
+        font-family: monospace;
+        text-align: center;
+
+    }
+
+
+    .ep-img {
+        background-image: url(../images/images.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+    }
+
+
+    .ep2 {
+        background-image: url(../images/images\ \(1\).jpg);
+    }
+
+
+    .ep3 {
+        background-image: url(../images/images\ \(2\).jpg);
+    }
+
+    .ep4 {
+        background-image: url(../images/images\ \(3\).jpg);
+    }
+
+    .ep5 {
+        background-image: url(../images/images\ \(4\).jpg);
+    }
+}

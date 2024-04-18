@@ -1,0 +1,66 @@
+.std-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .std-hometext {
+        width: 70%;
+        height: 30%;
+        font-family: monospace;
+        text-align: center;
+    }
+}
+
+
+.stdlist-box {
+    padding: 10px;
+
+    .stadium-header {
+        font-family: monospace;
+        padding-top: 10px;
+
+    }
+
+    .stadium-info {
+        width: 70%;
+        height: 30%;
+        font-family: monospace;
+        padding-bottom: 10px;
+    }
+
+    .stadium-img {
+        background-image: url(../images/350px-Lino_Drieghe_Winterfell.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 534px;
+        height: 356px;
+
+        border-radius: 10px;
+        border-top: 12px solid grey;
+        border-right: 12px solid gray;
+
+    }
+
+    .simg2 {
+
+        background-image: url(../images/1532409638167.avif);
+    }
+
+
+    .simg3 {
+
+        background-image: url(../images/The_wall.webp);
+    }
+
+
+    .simg4 {
+
+        background-image: url(../images/static-assets-upload10156267439760474393.webp);
+    }
+
+    .simg5 {
+
+        background-image: url(../images/The_Eyrie.webp);
+    }
+}

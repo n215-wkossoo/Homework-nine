@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 20px;
+}
+
+nav {
+  height: 50px;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homepage-img-box {
+  background-color: red;
+  width: 100%;
+}
+.homepage-img-box .homepage-img {
+  background-image: url(../images/game-of-thrones-1-1920x1080.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.homepage-img-box .homepage-img .homepageimg-text {
+  font-size: xx-large;
+  color: white;
+  font-family: fantasy;
+  padding: 5px;
+}
+.homepage-img-box .homepage-img .homemore-text {
+  font-size: medium;
+  color: white;
+  font-family: fantasy;
+  padding: 5px;
+  text-align: center;
+}
+.homepage-img-box .homepage-img .home-button {
+  width: 140px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-family: monospace;
+}
+
+.formula-intro-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.formula-intro-box .intro-text {
+  width: 60%;
+  text-align: center;
+  height: 30%;
+  font-family: monospace;
+}
+
+.homemain-img-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homemain-img-box .homemain-img {
+  background-image: url(../images/Game_of_Thrones_title_card.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 200px;
+}
+
+.f1-safeinfo-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.f1-safeinfo-box .safe-img {
+  background-image: url(../images/rs_1200x1200-220819175009-1200-Game-of-thrones.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 200px;
+}
+.f1-safeinfo-box .safety-text {
+  width: 50%;
+  height: 30%;
+}
+.f1-safeinfo-box .img2 {
+  background-image: url(../images/230822_GOTRPG_GTM_WebsiteKeyArt_NoLogo_1080x1080-copy.webp);
+}
+
+.drivers-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drivers-box .drivers-text-box {
+  margin-top: 50px;
+  width: 60%;
+  text-align: center;
+  height: 30%;
+  font-family: monospace;
+  display: flex;
+}
+.drivers-box .drivers-homepage {
+  background-image: url(../images/download\ \(2\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 400px;
+}
+
+.champs-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.champs-box .champ-info {
+  width: 50%;
+  height: 30%;
+  font-family: monospace;
+}
+.champs-box .champ-img {
+  background-image: url(../images/download\ \(3\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 274px;
+  height: 254px;
+}
+.champs-box .imgchamp2 {
+  background-image: url(../images/D5JF98.webp);
+}
+.champs-box .imgchamp3 {
+  background-image: url(../images/cersei2_trans_NvBQzQNjv4Bq8uCZQ4CwV1dl0Mg8NuwggWSDtfxxgc3CJ64yW7BKTEs.jpg);
+}
+
+.thrones-epinfo-box {
+  margin: auto;
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thrones-epinfo-box .thrones-epinfo-img {
+  background-image: url(../images/download\ \(4\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 534px;
+  height: 356px;
+  margin-top: 20px;
+}
+
+.eplist-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.eplist-box .eptext {
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  text-align: center;
+}
+.eplist-box .ep-img {
+  background-image: url(../images/images.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.eplist-box .ep2 {
+  background-image: url(../images/images\ \(1\).jpg);
+}
+.eplist-box .ep3 {
+  background-image: url(../images/images\ \(2\).jpg);
+}
+.eplist-box .ep4 {
+  background-image: url(../images/images\ \(3\).jpg);
+}
+.eplist-box .ep5 {
+  background-image: url(../images/images\ \(4\).jpg);
+}
+
+.std-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.std-container .std-hometext {
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  text-align: center;
+}
+
+.stdlist-box {
+  padding: 10px;
+}
+.stdlist-box .stadium-header {
+  font-family: monospace;
+  padding-top: 10px;
+}
+.stdlist-box .stadium-info {
+  width: 70%;
+  height: 30%;
+  font-family: monospace;
+  padding-bottom: 10px;
+}
+.stdlist-box .stadium-img {
+  background-image: url(../images/350px-Lino_Drieghe_Winterfell.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 534px;
+  height: 356px;
+  border-radius: 10px;
+  border-top: 12px solid grey;
+  border-right: 12px solid gray;
+}
+.stdlist-box .simg2 {
+  background-image: url(../images/1532409638167.avif);
+}
+.stdlist-box .simg3 {
+  background-image: url(../images/The_wall.webp);
+}
+.stdlist-box .simg4 {
+  background-image: url(../images/static-assets-upload10156267439760474393.webp);
+}
+.stdlist-box .simg5 {
+  background-image: url(../images/The_Eyrie.webp);
+}
+
+footer {
+  height: 100px;
+  background-color: gray;
+}
+footer .footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+footer .footer-box .footer-logo {
+  background-image: url(../images/Game-of-Thrones-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 126px;
+  height: 60px;
+}
+footer .footer-box .footer-text {
+  width: 222px;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+footer .footer-box .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
